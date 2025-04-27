@@ -1,0 +1,14 @@
+{
+    "call": {
+        "message": "Urgent: Help needed immediately",
+        "nurse_phone": "+1234567890"
+    },
+    "wave": {
+        "message": "Routine check needed",
+        "nurse_phone": "+1234567890"
+    },
+    "fist": {
+        "message": "Patient OK",
+        "nurse_phone": "+1234567890"
+    }
+}

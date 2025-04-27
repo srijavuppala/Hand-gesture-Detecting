@@ -1,39 +1,58 @@
-# Advanced Hand Gesture Recognition System
+# ✋ Hand Recognition Using MediaPipe
 
-A sophisticated hand gesture recognition system using computer vision and machine learning techniques.
+This project uses [MediaPipe](https://mediapipe.dev/) to perform real-time hand detection and recognition. It identifies hand landmarks, tracks movement, and classifies gestures. The end goal is to use this model to build a **presentation control app**, allowing users to move between slides using simple hand gestures — no clicker needed!
 
-## Features
-- Custom hand detection using OpenCV
-- Advanced gesture recognition with deep learning
-- Real-time visualization of hand landmarks
-- Support for multiple gestures including:
-  - Wave
-  - Thumbs up/down
-  - Peace sign
-  - Open/closed palm
-  - Point
-  
-## Setup
-1. Install dependencies:
+---
+
+## 🚀 Features
+
+- Real-time hand tracking using MediaPipe  
+- Detection of 21 hand landmarks  
+- Custom gesture recognition using angles and distances  
+- Easily extendable to support more gestures and actions  
+
+---
+
+## 📁 Project Files
+
+- `playground.ipynb` – Main notebook for hand tracking and gesture classification  
+- `requirements.yml` – Conda environment file to recreate the setup  
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
+
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/your-username/hand-recognition-app.git
+cd hand-recognition-app
 ```
 
-2. Run the main program:
-```bash
-python main.py
-```
+### 2. Create and activate the environment
 
-## Project Structure
-- `main.py`: Main application entry point
-- `hand_detector.py`: Custom hand detection implementation
-- `gesture_recognizer.py`: Gesture classification model
-- `utils.py`: Helper functions and utilities
-- `visualization.py`: Real-time visualization tools
+conda env create -f requirements.yml
+conda activate hand-recognition
 
-## Implementation Details
-This project implements hand gesture recognition using computer vision techniques and deep learning. Unlike other implementations that rely solely on pre-built solutions, this project:
-- Uses custom hand detection algorithms
-- Implements unique feature extraction methods
-- Provides real-time visualization of hand tracking
-- Includes a custom-trained gesture recognition model
+### 3. Have fun with either the notebook or the main.py file
+
+    jupyter notebook playground.ipynb
+    python main.py
+
+## 🎯 Future Plans
+
+    ✅ Build a presentation controller app to navigate slides using gestures
+
+    ✅ Add a simple GUI for easier usage
+
+    ⏳ Add more gestures (e.g., zoom, pointer) and custom action mapping
+
+## 🖼️ Sample Output
+
+![Hand Recognition Demo](misc/fun.gif)
+
+## 🤝 Contributing
+
+Pull requests are welcome! Feel free to fork this project and suggest improvements or additional features.
+
+>Made with ❤️ using Python, OpenCV, and MediaPipe

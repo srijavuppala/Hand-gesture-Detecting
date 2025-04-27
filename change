@@ -1,0 +1,17 @@
+things i need to change
+-is optimize the dataset accuracy and see anything
+- should we use yolo would be nice to get better results
+- change the text of the symbols its showing the font should be nice (done )
+- added a speech gesture (done)
+
+
+
+-investigate more on the dataset of hagrid and how do we implement it 
+- making it as realtime useful gesture by integrating cloud
+
+if more time 
+- u can also add facial and hand detection of ur sign language and getting the output it an be that 
+
+v2(plan)
+adding the aws dynamo db and a website to tag and log and present the data in a good form and its in grok do those step 
+and try to get a clarity of what to do 

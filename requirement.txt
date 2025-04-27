@@ -1,0 +1,11 @@
+boto3
+flask
+flask-socketio
+pyttsx3
+opencv-python
+mediapipe
+pandas
+numpy
+scikit-learn
+python-dotenv
+flask-login
